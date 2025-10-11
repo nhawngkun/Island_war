@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf1c4f8b2ac5a900c91e02e8c9117c9, type: 3}
+  m_Name: dungeon_3
+  m_EditorClassIdentifier:
+  basicAsset: {fileID: 11400000, guid: 9decc501a18df3249bc61e7c6a23df7b, type: 2}
+  bg: {fileID: 21300000, guid: 33dd1b5d11f83bc41a0abbb7d95b3294, type: 2}
+  barrierScale: 2.8
+  levelIcons:
+  - {fileID: 21300000, guid: 3137666e18ab2814a8d14ee8b6034e2e, type: 2}
+  - {fileID: 21300000, guid: 8e40c6d7514fd4747bf5314bdbad4332, type: 2}
+  - {fileID: 21300000, guid: 9ce3617fe5ea833479670da006692395, type: 2}
+  - {fileID: 21300000, guid: cc5f7fb8a0b11184cbdb96ebfd885648, type: 2}
+  - {fileID: 21300000, guid: da180ea5b0466c940a92bc46a7eeacbe, type: 2}
+  - {fileID: 21300000, guid: 0294616675a35e64e85c6f7fa30d01a3, type: 2}
+  - {fileID: 21300000, guid: 474820c18676c7145be12484383519b9, type: 2}
+  decors:
+  - {fileID: 21300000, guid: d6a4362ae2e18c546a94122cd7c8049f, type: 2}
+  - {fileID: 21300000, guid: 48360f319f14bce42b6f9bebf7646de0, type: 2}
+  - {fileID: 21300000, guid: f431d6c99e676d84fae26f9eb48ef515, type: 2}
+  mapLevelIcons:
+  - {fileID: 21300000, guid: 8072eeb56776a0a42845dfac2c5a16b9, type: 2}
+  - {fileID: 21300000, guid: d32279a6c483c954b8568e502428bce1, type: 2}
+  - {fileID: 21300000, guid: 1f39a79f8c848e14eb2ab4555cc523fd, type: 2}
+  - {fileID: 21300000, guid: 30ceed810632a394fa374da19982863c, type: 2}
+  - {fileID: 21300000, guid: 81f7d1cbbb212c347a5535e78be2d395, type: 2}
+  - {fileID: 21300000, guid: 2272cc78bba1c614680ac5c2b48ba9ce, type: 2}
+  - {fileID: 21300000, guid: ca480a7d473467846a365d51692b8086, type: 2}
+  mapDecors:
+  - {fileID: 21300000, guid: e21cc9df58ebf7f448fc824bb0809723, type: 2}
+  - {fileID: 21300000, guid: 5128729a5cdc3694b82b77da056d72e9, type: 2}
+  - {fileID: 21300000, guid: d6fc6cdeee598e84f9511ea5950c87be, type: 2}
+  buildingPositions:
+  - {x: 0, y: 68}
+  - {x: -26, y: 92}
+  - {x: 0, y: 128}
+  - {x: 80, y: 84}
+  - {x: 56, y: 126}
+  - {x: -26, y: 98}
+  - {x: -76, y: 50}
+  cloud: {fileID: 114105488354381772, guid: 8d8a34f56676efd49a783cb55c1d06c5, type: 2}
+  cloudDissipate: {fileID: 1495780399903672, guid: 610c846352705004b8a4cfbbeb41e6e3, type: 2}
+  dungeonEffect: {fileID: 114250052303473886, guid: 58884def2357ede4c971bc64be9cd7a7, type: 2}

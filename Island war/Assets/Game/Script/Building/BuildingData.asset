@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42246645ecbb8b941b64ca59d3c4df68, type: 3}
+  m_Name: BuildingData
+  m_EditorClassIdentifier: 
+  houseLayerItems:
+  - id: 0
+    itemName: AmryCamp
+    buildingType: 0
+    prefab: {fileID: 1040387788520275, guid: f64700309b341ea4baf4e9f93d936f2a, type: 3}
+    cost: 0
+    levelPrefabs:
+    - {fileID: 1040387788520275, guid: f64700309b341ea4baf4e9f93d936f2a, type: 3}
+    - {fileID: 1518997117698098, guid: 5e1ee4ba916c69e40bca09cc0e996524, type: 3}
+    - {fileID: 1354888654851990, guid: 20ec95d89cb944c49aaa1dd54f2d4bb4, type: 3}
+    - {fileID: 1035730271918101, guid: 1529e583308f60345b31f04239a6c13a, type: 3}
+    - {fileID: 1849796513258256, guid: fda3d8d949ea10c488302d193da3a9f4, type: 3}
+  - id: 1
+    itemName: CoinMine
+    buildingType: 0
+    prefab: {fileID: 1594350933466183, guid: 32531f78df48d62449179d3e76b119e2, type: 3}
+    cost: 0
+    levelPrefabs:
+    - {fileID: 1594350933466183, guid: 32531f78df48d62449179d3e76b119e2, type: 3}
+    - {fileID: 1188070217425558, guid: 5457d35f0305fa94aad7a28b4ce8dcf6, type: 3}
+    - {fileID: 1396371818079214, guid: 00e40300f479a69448a943fbcaf75d83, type: 3}
+    - {fileID: 1133168337269062, guid: f07cfab316b74084c9a879593a07175d, type: 3}
+    - {fileID: 1620453696988193, guid: 1333733655899644aa2bc04672410fa6, type: 3}
+  wallLayerItems:
+  - id: 0
+    itemName: wall
+    buildingType: 2
+    prefab: {fileID: 1513002626213110, guid: adb7214305b356e4fa31d46e334f64fa, type: 3}
+    cost: 0
+    levelPrefabs:
+    - {fileID: 1513002626213110, guid: adb7214305b356e4fa31d46e334f64fa, type: 3}
+    - {fileID: 1151301341273006, guid: c370ee55c65c7ed4ba9e1cf09e481d43, type: 3}
+    - {fileID: 1612625805471580, guid: 5d8e1a90d169b8845913f6f2c039fd32, type: 3}
+    - {fileID: 1586548614995915, guid: 7615757b19c7e394eb9df7d9e4e1dc87, type: 3}
+    - {fileID: 1665387957100852, guid: 820977dd5f20cfb4eb6ca778f7363563, type: 3}
+  soldierLayerItems:
+  - id: 0
+    itemName: archer
+    buildingType: 1
+    prefab: {fileID: 7380794792544656684, guid: 20cda5a461b7a3c4a964349db798f5b7, type: 3}
+    cost: 0
+    levelPrefabs:
+    - {fileID: 7380794792544656684, guid: 20cda5a461b7a3c4a964349db798f5b7, type: 3}
+    - {fileID: 8397163049155857754, guid: b5a7ab9212e19ef4aac191e986d1c12b, type: 3}
+    - {fileID: 35978600954661749, guid: 55508897b27eb52488a2b174cf251b5f, type: 3}

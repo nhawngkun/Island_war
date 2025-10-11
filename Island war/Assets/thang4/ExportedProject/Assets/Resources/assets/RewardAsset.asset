@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39d80831f3476cf9fcb9e05f2e38246, type: 3}
+  m_Name: RewardAsset
+  m_EditorClassIdentifier:
+  atlas:
+    spriteAtlas: {fileID: 687078895, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  trophyChestAtlas:
+    spriteAtlas: {fileID: 687078895, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  rewardCardsAtlas:
+    spriteAtlas: {fileID: 687078895, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  playerLevelRewardPrefab: {fileID: 114399266992594780, guid: a026182fb11428d459fa3fccbcf7dd48, type: 2}
+  limitRewardTag: {fileID: 114957222270254312, guid: 5f23400cf59402d4286ca39442bd5b48, type: 2}
+  vipRewardTag: {fileID: 114523306908052414, guid: cc17c3cf7028aef48b6663f502335dc3, type: 2}
+  specialRewardDict:
+    m_keys: 000000000100000002000000
+    m_values:
+    - {fileID: 21300000, guid: a05d6ba2a24267242952b11b04a61467, type: 2}
+    - {fileID: 21300000, guid: 25c4fad8455a1cd4291f34bd3a81fbbc, type: 2}
+    - {fileID: 21300000, guid: 3c92abf46604466478717b89eaea965f, type: 2}
+  optionalAtlas:
+  - {fileID: 21300000, guid: 9b9a8a51a889ad04ea5ff52b09cdd964, type: 2}
+  - {fileID: 21300000, guid: 7812a2359a1576b4ea994156a7f0bf6f, type: 2}
+  - {fileID: 21300000, guid: 891cbb00c1164a741b075561be7065c0, type: 2}
+  heroTagObjectPrefab: {fileID: 114896307473831222, guid: 2ce90cf97a250354781dc52a5c0a1775, type: 2}
