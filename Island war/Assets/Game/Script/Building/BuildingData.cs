@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using System.Collections.Generic;
 #if UNITY_EDITOR
@@ -10,14 +9,15 @@ public enum BuildingLayer
 {
     House = 0,  // Layer cho nhà
     Wall = 1,   // Layer cho hàng rào
-    Soldier = 2 // ADDED: Layer cho lính
+    Soldier = 2 // Layer cho lính
 }
 
 public enum BuildingType
 {
     House,
-    Soldier,    // ADDED
+    Soldier,
     WoodenWall,
+    MainHouse // ADDED: Thêm nhà chính
 }
 
 // ============ SCRIPTABLE OBJECT DATA ============
@@ -31,13 +31,11 @@ public class BuildingData : ScriptableObject
     [TabGroup("Wall Layer", "Walls & Defenses")]
     [TableList(ShowIndexLabels = true, AlwaysExpanded = true)]
     public List<BuildingItem> wallLayerItems = new List<BuildingItem>();
-
-    // ADDED: Tab và List mới cho Soldier
+    
     [TabGroup("Soldier Layer", "Soldiers")]
     [TableList(ShowIndexLabels = true, AlwaysExpanded = true)]
     public List<BuildingItem> soldierLayerItems = new List<BuildingItem>();
 
-    // CHANGED: Cập nhật hàm để tìm kiếm trong cả 3 layer
     public BuildingItem GetItemById(int id, BuildingLayer layer)
     {
         List<BuildingItem> targetList;
@@ -69,9 +67,13 @@ public class BuildingItem
     [Tooltip("Prefab mặc định hoặc prefab cho Level 1")]
     public GameObject prefab;
     
+    [Tooltip("Chi phí để xây dựng ban đầu")]
     public int cost;
 
-    // ADDED: List prefab cho các cấp độ, bạn có thể thêm prefab level 2, 3... vào đây
+    // ADDED: Danh sách chi phí để nâng cấp. Index 0 = chi phí từ lv1->2, index 1 = chi phí từ lv2->3...
+    [Tooltip("Chi phí để nâng cấp lên các cấp độ tiếp theo (ví dụ: index 0 là chi phí để lên level 2)")]
+    public List<int> upgradeCosts = new List<int>();
+
     [Tooltip("Danh sách các prefab tương ứng với các cấp độ (ví dụ: index 0 là level 1, index 1 là level 2,...)")]
     public List<GameObject> levelPrefabs = new List<GameObject>();
 }

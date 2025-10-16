@@ -65,15 +65,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Game\Script\Building\BuildingButton.cs" />
+    <Compile Include="Assets\Game\Script\Building\SoldierData.cs" />
     <Compile Include="Assets\Game\Script\Building\BuildingData.cs" />
     <Compile Include="Assets\Game\Script\CameraViewSwitcher.cs" />
+    <Compile Include="Assets\Game\Script\CameraController.cs" />
     <Compile Include="Assets\Game\Script\RemoveMissingScripts.cs" />
+    <Compile Include="Assets\Game\Script\Gameplay\UI\UIHome.cs" />
+    <Compile Include="Assets\Game\Script\Building\UpgradeIcon.cs" />
     <Compile Include="Assets\Game\Script\Building\GameManager.cs" />
-    <Compile Include="Assets\Game\Script\Building\CameraController.cs" />
+    <Compile Include="Assets\Game\Script\Gameplay\UI\HomeTab.cs" />
+    <Compile Include="Assets\Game\Script\UICanvas.cs" />
     <Compile Include="Assets\Game\Script\Building\BuidingManager.cs" />
     <Compile Include="Assets\Game\Script\Building\Singleton.cs" />
-    <Compile Include="Assets\Game\Script\GameController.cs" />
+    <Compile Include="Assets\Game\Script\UIManager.cs" />
     <Compile Include="Assets\Game\Script\Building\BuildingTile.cs" />
+    <Compile Include="Assets\Game\Script\Building\GameController.cs" />
+    <Compile Include="Assets\Game\Script\Gameplay\UI\UIRecruit.cs" />
+    <Compile Include="Assets\Game\Script\Gameplay\UI\StraUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\thang4\ExportedProject\Assets\Resources\csv\OpponentControlModel.txt" />

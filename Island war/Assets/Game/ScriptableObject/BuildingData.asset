@@ -18,6 +18,7 @@ MonoBehaviour:
     buildingType: 0
     prefab: {fileID: 1040387788520275, guid: f64700309b341ea4baf4e9f93d936f2a, type: 3}
     cost: 0
+    upgradeCosts: 0000000000000000000000000000000000000000
     levelPrefabs:
     - {fileID: 1040387788520275, guid: f64700309b341ea4baf4e9f93d936f2a, type: 3}
     - {fileID: 1518997117698098, guid: 5e1ee4ba916c69e40bca09cc0e996524, type: 3}
@@ -29,18 +30,32 @@ MonoBehaviour:
     buildingType: 0
     prefab: {fileID: 1594350933466183, guid: 32531f78df48d62449179d3e76b119e2, type: 3}
     cost: 0
+    upgradeCosts: 0000000000000000000000000000000000000000
     levelPrefabs:
     - {fileID: 1594350933466183, guid: 32531f78df48d62449179d3e76b119e2, type: 3}
     - {fileID: 1188070217425558, guid: 5457d35f0305fa94aad7a28b4ce8dcf6, type: 3}
     - {fileID: 1396371818079214, guid: 00e40300f479a69448a943fbcaf75d83, type: 3}
     - {fileID: 1133168337269062, guid: f07cfab316b74084c9a879593a07175d, type: 3}
     - {fileID: 1620453696988193, guid: 1333733655899644aa2bc04672410fa6, type: 3}
+  - id: 2
+    itemName: cityhall
+    buildingType: 3
+    prefab: {fileID: 1472451005778505, guid: 5f4ef093c3154ef4db7a1113ffab8bbf, type: 3}
+    cost: 0
+    upgradeCosts: 0000000000000000000000000000000000000000
+    levelPrefabs:
+    - {fileID: 1472451005778505, guid: 5f4ef093c3154ef4db7a1113ffab8bbf, type: 3}
+    - {fileID: 1834822530908791, guid: 13a17000f16fd7b40869f48023c60cc6, type: 3}
+    - {fileID: 1737020343400347, guid: 374653e26ed91b145b5412a5d22210cf, type: 3}
+    - {fileID: 1496891751773374, guid: 2ff482ec855e3d3459296b171706503c, type: 3}
+    - {fileID: 1358545663963676, guid: 60b7db9df3675144a85971b0d99266cb, type: 3}
   wallLayerItems:
   - id: 0
     itemName: wall
     buildingType: 2
     prefab: {fileID: 1513002626213110, guid: adb7214305b356e4fa31d46e334f64fa, type: 3}
     cost: 0
+    upgradeCosts: 0000000000000000000000000000000000000000
     levelPrefabs:
     - {fileID: 1513002626213110, guid: adb7214305b356e4fa31d46e334f64fa, type: 3}
     - {fileID: 1151301341273006, guid: c370ee55c65c7ed4ba9e1cf09e481d43, type: 3}
@@ -53,6 +68,7 @@ MonoBehaviour:
     buildingType: 1
     prefab: {fileID: 7380794792544656684, guid: 20cda5a461b7a3c4a964349db798f5b7, type: 3}
     cost: 0
+    upgradeCosts: 
     levelPrefabs:
     - {fileID: 7380794792544656684, guid: 20cda5a461b7a3c4a964349db798f5b7, type: 3}
     - {fileID: 8397163049155857754, guid: b5a7ab9212e19ef4aac191e986d1c12b, type: 3}
@@ -62,7 +78,28 @@ MonoBehaviour:
     buildingType: 1
     prefab: {fileID: 3395271948775779650, guid: ab9215209c296f047a4e2c3ede8788b4, type: 3}
     cost: 0
+    upgradeCosts: 
     levelPrefabs:
     - {fileID: 3395271948775779650, guid: ab9215209c296f047a4e2c3ede8788b4, type: 3}
     - {fileID: 7226492001454824747, guid: cf7762594e56b234b9fbf2588c6d2523, type: 3}
     - {fileID: 686541040770976455, guid: 6b4f197c70a913f49b84284c0ec1d1f7, type: 3}
+  - id: 2
+    itemName: fenrir
+    buildingType: 1
+    prefab: {fileID: 7564385326244605501, guid: 725e112db3fad6a46a86880eac5e2235, type: 3}
+    cost: 0
+    upgradeCosts: 
+    levelPrefabs:
+    - {fileID: 7564385326244605501, guid: 725e112db3fad6a46a86880eac5e2235, type: 3}
+    - {fileID: 6730528964771977541, guid: b07443301f5b93f429848dd4f4f25c5e, type: 3}
+    - {fileID: 2231462365651182440, guid: a2734b188b7a90542a29d4517cae75a2, type: 3}
+  - id: 3
+    itemName: Merlin
+    buildingType: 1
+    prefab: {fileID: 8499534336498095579, guid: 290bdf89f759338499dd665a2d966d0d, type: 3}
+    cost: 0
+    upgradeCosts: 
+    levelPrefabs:
+    - {fileID: 8499534336498095579, guid: 290bdf89f759338499dd665a2d966d0d, type: 3}
+    - {fileID: 4884396095000477523, guid: 7a19eae0960ad9b44850be89e5894782, type: 3}
+    - {fileID: 3808440485086985383, guid: be0c007acb81b634dbf1eb40fab3c3d1, type: 3}
