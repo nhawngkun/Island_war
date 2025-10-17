@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: water_30100
+  m_Shader: {fileID: 4800000, guid: cb5ea1a0a5d81184094f98f7c5b29b4e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CAUTICS_ON
+  m_InvalidKeywords:
+  - _SCREEN_SPACE
+  - _SIMPLE_NOSIE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CauticsMap:
+        m_Texture: {fileID: 2800000, guid: 38c9a6b3a0a45c84c9d143ce21e65fba, type: 3}
+        m_Scale: {x: 220, y: 220}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AngleOffset: 1.44
+      _BumpScale: 1
+      _CAUTICS_ON: 1
+      _CausticsTilling: 194.75
+      _CellDensity: 3.12
+      _Cutoff: 0.5
+      _DepthFade: 79.9
+      _DepthLinearStrength: 1.4
+      _DepthLinearStrength01: 765.8
+      _DepthLinearStrength02: 3
+      _DepthLinearStrength03: 1
+      _DetailNormalMapScale: 1
+      _DistanceFade: 3500
+      _DstBlend: 0
+      _FarDis: 0.429
+      _FoamClipValue: 0.03
+      _FoamFactorValue: 0.13
+      _FoamIntensity: 1
+      _FoamRippleValue: 5
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Gradiant: 1
+      _HeightDecrement: 2.4
+      _Intensity: 1
+      _LightFectRange: -0.2
+      _LuminanceSaturate: 0
+      _Metallic: 0
+      _Mode: 0
+      _NearDis: 0.411
+      _OcclusionStrength: 1
+      _Offset: 1.7
+      _Parallax: 0.02
+      _Range: 1
+      _RippleSpeed: 10
+      _SCREEN_SPACE: 1
+      _SIMPLE_NOSIE: 1
+      _ShadowFadeDistance: 1000
+      _ShadowPower: 0
+      _ShadowRange: 0
+      _ShadowStrength: 6.84
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _Speed: 17.85
+      _SrcBlend: 1
+      _Strength: 0.2
+      _Tilling: 0.05
+      _USE_CAUTICS_MAP: 0
+      _UVSec: 0
+      _WAVE_ON: 0
+      _Weight: 1
+      _ZWrite: 1
+    m_Colors:
+      LuminanceColor: {r: 1.7411011, g: 1.7411011, b: 1.7411011, a: 1}
+      _CauticsColor: {r: 1, g: 1, b: 1, a: 0.05882353}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DeepColor: {r: 0.5553578, g: 0.57387555, b: 0.6037736, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FarColor: {r: 0.14017443, g: 0.28361988, b: 0.4716981, a: 1}
+      _FoamWidthNSpeed: {r: 1, g: 1, b: 100, a: 100}
+      _LightPos: {r: 12.77, g: 1, b: 2.1, a: 2.41}
+      _LightPosNOffset: {r: -1, g: -1, b: 0, a: 0}
+      _LightPosProjNFadeDec: {r: -44.77, g: 2, b: 1, a: 2}
+      _LightPosProjNFadeDecNStr: {r: -12.83, g: -7, b: 162.2, a: 109.55}
+      _LightPosProjNStr: {r: 1, g: 0, b: 7.32, a: 2.88}
+      _LuminanceColor: {r: 0.0152634485, g: 0.2946389, b: 0.46226418, a: 1}
+      _MidColor: {r: 0.25943398, g: 0.7531449, b: 1, a: 1}
+      _NearColor: {r: 0.4274208, g: 0.8018868, b: 0.7586792, a: 1}
+      _ShadowColor: {r: 1, g: 0.19339621, b: 0.19339621, a: 1}
+      _ShadowPosOffset: {r: 103.7, g: 0, b: 101.3, a: 0}
+      _ShadowPosOffsetNIntensity: {r: 0, g: 0, b: 0, a: 0}
+      _VoronoiVector: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

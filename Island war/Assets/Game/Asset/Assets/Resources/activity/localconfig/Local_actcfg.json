@@ -1,0 +1,340 @@
+{
+  "daily_special": [
+    {
+      "id": 1,
+      "type": "Demon",
+      "group": 1,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "type": "Master",
+      "group": 1,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 400
+    },
+    {
+      "id": 3,
+      "type": "Necromancer",
+      "group": 2,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 200
+    },
+    {
+      "id": 4,
+      "type": "Pilgrim",
+      "group": 2,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 200
+    },
+    {
+      "id": 5,
+      "type": "OrgeWarrior",
+      "group": 3,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 150,
+      "needUnlock": 1
+    },
+    {
+      "id": 6,
+      "type": "BladeGhost",
+      "group": 3,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 150,
+      "needUnlock": 1
+    },
+    {
+      "id": 7,
+      "type": "FireMage",
+      "group": 3,
+      "limitCount": 10,
+      "saleType": "Gems",
+      "price": 150,
+      "needUnlock": 1
+    },
+    {
+      "id": 8,
+      "type": "OrgeWarrior",
+      "group": 4,
+      "limitCount": 10,
+      "saleType": "Coins",
+      "price": 20000,
+      "unlockSaleLevel": 150,
+      "probability": 10
+    },
+    {
+      "id": 9,
+      "type": "BladeGhost",
+      "group": 4,
+      "limitCount": 10,
+      "saleType": "Coins",
+      "price": 20000,
+      "unlockSaleLevel": 150,
+      "probability": 10
+    }
+  ],
+  "conquest": {
+  },
+  "lucky_spin": {
+    "id": 1,
+    "unlock_level": 27,
+    "single_price": 120,
+    "five_price": 540,
+    "main_item_id": 76,
+    "daily_max_draw_num": 100,
+    "extra_rewards": [
+      {
+        "id": 1,
+        "target": 25,
+        "rewards": [
+          [
+            76,
+            1
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "target": 50,
+        "rewards": [
+          [
+            2,
+            120
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "target": 75,
+        "rewards": [
+          [
+            79,
+            1
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "target": 100,
+        "rewards": [
+          [
+            76,
+            2
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "target": 200,
+        "rewards": [
+          [
+            76,
+            3
+          ]
+        ]
+      }
+    ],
+    "spin_rewards": [
+      {
+        "id": 1,
+        "rewardItemId": 76,
+        "rewardItemNum": 1,
+        "rate": 2
+      },
+      {
+        "id": 2,
+        "rewardItemId": 86,
+        "rewardItemNum": 1,
+        "rate": 4
+      },
+      {
+        "id": 3,
+        "rewardItemId": 40,
+        "rewardItemNum": 1,
+        "rate": 4
+      },
+      {
+        "id": 4,
+        "rewardItemId": 41,
+        "rewardItemNum": 1,
+        "rate": 5
+      },
+      {
+        "id": 5,
+        "rewardItemId": 18,
+        "rewardItemNum": 1,
+        "rate": 5
+      },
+      {
+        "id": 6,
+        "rewardItemId": 82,
+        "rewardItemNum": 1,
+        "rate": 8
+      },
+      {
+        "id": 7,
+        "rewardItemId": 19,
+        "rewardItemNum": 1,
+        "rate": 8
+      },
+      {
+        "id": 8,
+        "rewardItemId": 60,
+        "rewardItemNum": 1,
+        "rate": 7
+      },
+      {
+        "id": 9,
+        "rewardItemId": 56,
+        "rewardItemNum": 1,
+        "rate": 14
+      },
+      {
+        "id": 10,
+        "rewardItemId": 2,
+        "rewardItemNum": 60,
+        "rate": 20
+      },
+      {
+        "id": 11,
+        "rewardItemId": 1,
+        "rewardItemNum": 4000,
+        "rate": 15
+      },
+      {
+        "id": 12,
+        "rewardItemId": 55,
+        "rewardItemNum": 1,
+        "rate": 8
+      }
+    ]
+  },
+  "flop": {
+    "id": 1,
+    "unlock_level": 21,
+    "single_price": 600,
+    "flop_reset_limit_count": 10,
+    "heroes": [
+      [
+        8,
+        20,
+        79,
+        44
+      ],
+      [
+        46,
+        43,
+        69,
+        82
+      ],
+      [
+        52,
+        58,
+        21,
+        18
+      ],
+      [
+        53,
+        57,
+        81,
+        22
+      ]
+    ],
+    "rewards": [
+      {
+        "id": 1,
+        "rewardItemId": 46,
+        "rewardItemNum": 1,
+        "rate": 2
+      },
+      {
+        "id": 2,
+        "rewardItemId": 91,
+        "rewardItemNum": 1,
+        "rate": 3
+      },
+      {
+        "id": 3,
+        "rewardItemId": 92,
+        "rewardItemNum": 1,
+        "rate": 3
+      },
+      {
+        "id": 4,
+        "rewardItemId": 93,
+        "rewardItemNum": 1,
+        "rate": 3
+      },
+      {
+        "id": 5,
+        "rewardItemId": 1,
+        "rewardItemNum": 3000,
+        "rate": 2
+      },
+      {
+        "id": 6,
+        "rewardItemId": 2,
+        "rewardItemNum": 500,
+        "rate": 4
+      },
+      {
+        "id": 7,
+        "rewardItemId": 54,
+        "rewardItemNum": 1,
+        "rate": 4
+      },
+      {
+        "id": 8,
+        "rewardItemId": 55,
+        "rewardItemNum": 1,
+        "rate": 2
+      },
+      {
+        "id": 9,
+        "rewardItemId": 74,
+        "rewardItemNum": 1,
+        "rate": 3
+      }
+    ]
+  },
+  "furnace": {
+    "cost": [
+      {
+        "cost_type": 1,
+        "cost_num": 500
+      },
+      {
+        "cost_type": 2,
+        "cost_num": 8
+      },
+      {
+        "cost_type": 2,
+        "cost_num": 20
+      }
+    ]
+  },
+  "cerberus_hunting": {
+    "unlock_level": 101,
+    "duration": 1468799,
+    "vip_price": 6000,
+    "activity_item_id": 104,
+    "max_challenge": 3
+  },
+  "giant": {
+  },
+  "hero_tower": {
+    "unlock_level": 3,
+    "max_level" : 100
+  },
+  "arena_task": {
+    "unlock_level": 30,
+    "task_num": 3
+  }
+}
