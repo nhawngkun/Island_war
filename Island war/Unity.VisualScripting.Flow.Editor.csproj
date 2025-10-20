@@ -598,6 +598,10 @@
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
@@ -1220,13 +1224,13 @@
       <Project>{983D88BF-2B2C-502B-1C0C-76DA9D576036}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E3D06258-3764-D0B6-06AF-4EE0F495D99B}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{4C95A122-CF90-D5F6-4F9D-E2839D9C121F}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{E3D06258-3764-D0B6-06AF-4EE0F495D99B}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

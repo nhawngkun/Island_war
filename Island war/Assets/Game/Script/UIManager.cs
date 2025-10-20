@@ -8,11 +8,15 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private List<UICanvas> uiCanvases;
     public Transform _effects;
     private bool isPaused = false;
-
+    
     public override void Awake()
     {
         base.Awake();
         InitializeUICanvases();
+    }
+    void Start() 
+    {
+        
     }
 
     private void InitializeUICanvases()

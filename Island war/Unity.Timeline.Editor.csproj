@@ -134,8 +134,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Manipulators\Sequence\TrackZoom.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Animation\BindingSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\TimelineNavigator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Utilities\DisplayNameHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\treeview\Drawers\AnimationTrackDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Utilities\DisplayNameHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Utilities\ObjectReferenceField.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Actions\TrackActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\TimelineWindow_TrackGui.cs" />
@@ -180,8 +180,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Utilities\TrackModifier.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Utilities\StyleNormalColorOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\ViewModel\TimelineAssetViewModel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\MenuPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Playables\ControlPlayableInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\MenuPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\ViewModel\TimelineAssetViewModel_versions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\TimelineWindow_PlaybackControls.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
@@ -214,10 +214,10 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\CustomEditors\MarkerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Items\ItemsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\inspectors\TimelinePreferences.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\treeview\ItemGui\TimelineMarkerGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Actions\TimelineAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Window\TimelineWindow_TimeArea.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\treeview\TrackGui\TimelineTrackGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\Animation\CurvesProxy.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.7\Editor\treeview\Drawers\Layers\MarkersLayer.cs" />
@@ -704,6 +704,10 @@
     </Reference>
     <Reference Include="Sirenix.Reflection.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
@@ -1320,13 +1324,13 @@
       <Project>{8F3EDDC6-5987-6AFB-1881-91F03392C239}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E3D06258-3764-D0B6-06AF-4EE0F495D99B}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{4C95A122-CF90-D5F6-4F9D-E2839D9C121F}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{E3D06258-3764-D0B6-06AF-4EE0F495D99B}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

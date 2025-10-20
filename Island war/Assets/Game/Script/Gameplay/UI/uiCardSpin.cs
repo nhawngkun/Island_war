@@ -31,7 +31,7 @@ public class UICardSpin : UICanvas // Đảm bảo class này kế thừa UICanv
     private Sprite selectedCardSprite;
     private bool isRecruiting = false;
 
-    void Start()
+    public void Start()
     {
         if (closeButton != null)
         {
