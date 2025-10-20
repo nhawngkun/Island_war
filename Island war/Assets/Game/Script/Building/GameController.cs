@@ -85,6 +85,10 @@ public class GameController : Singleton<GameController>
         }
     }
 
+public Dictionary<int, int> GetSoldierInventory()
+    {
+        return soldierInventory;
+    }
     /// <summary>
     /// Lấy số lượng của một loại lính cụ thể.
     /// </summary>

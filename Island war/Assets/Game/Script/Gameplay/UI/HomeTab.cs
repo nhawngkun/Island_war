@@ -27,7 +27,7 @@ public class HomeTab : MonoBehaviour
         uiHome.currentTabIndex = tabIndex;
         
         // Move the parent tab GameObject (hero, shop, etc.) to the end of the sibling list
-        this.transform.SetAsLastSibling();
+        
         
         homeTab.GetComponent<RectTransform>().localScale = Vector3.zero;
         homeTab.GetComponent<RectTransform>().DOScale(Vector3.one, 0.2f).SetEase(Ease.OutBack);
