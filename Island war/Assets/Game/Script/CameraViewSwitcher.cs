@@ -1,8 +1,8 @@
 // CameraViewSwitcher.cs
 
 using UnityEngine;
-using UnityEngine.UI; // Cần thiết để làm việc với UI Text
-using TMPro; // Cần thiết để làm việc với TextMeshPro
+using UnityEngine.UI;
+using TMPro;
 
 public class CameraViewSwitcher : MonoBehaviour
 {
@@ -18,26 +18,40 @@ public class CameraViewSwitcher : MonoBehaviour
 
     [Header("UI (Optional)")]
     [Tooltip("(Tùy chọn) Kéo Text của button vào đây để đổi chữ")]
-    [SerializeField] private TextMeshProUGUI     buttonText;
+    [SerializeField] private TextMeshProUGUI buttonText;
 
     private bool isAtMainView = true;
 
-    // Hàm này sẽ được gọi bởi sự kiện OnClick của Button
+    // Hàm này sẽ được gọi bởi sự kiện OnClick của Button (nếu bạn vẫn dùng)
     public void OnSwitchViewClicked()
     {
-        isAtMainView = !isAtMainView; // Đảo ngược trạng thái
-
         if (isAtMainView)
         {
-            // Chuyển về đảo chính và BẬT điều khiển
-            mainCameraController.MoveToTarget(mainIslandView, true);
-            if (buttonText != null) buttonText.text = "Xem khu vực khác";
+            MoveToSecondaryView();
         }
         else
         {
-            // Chuyển đến view phụ và TẮT điều khiển
-            mainCameraController.MoveToTarget(secondaryView, false);
-            if (buttonText != null) buttonText.text = "Về đảo chính";
+            MoveToMainView();
         }
+    }
+
+    /// <summary>
+    /// HÀM MỚI: Bắt buộc camera di chuyển về đảo chính
+    /// </summary>
+    public void MoveToMainView()
+    {
+        isAtMainView = true;
+        mainCameraController.MoveToTarget(mainIslandView, true);
+        if (buttonText != null) buttonText.text = "Xem khu vực khác";
+    }
+
+    /// <summary>
+    /// HÀM MỚI: Bắt buộc camera di chuyển đến khu vực lính (phụ)
+    /// </summary>
+    public void MoveToSecondaryView()
+    {
+        isAtMainView = false;
+        mainCameraController.MoveToTarget(secondaryView, false); // Tắt điều khiển camera
+        if (buttonText != null) buttonText.text = "Về đảo chính";
     }
 }
