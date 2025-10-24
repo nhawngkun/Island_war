@@ -45,7 +45,7 @@ public class UIHome : UICanvas
         UIManager.Instance.OpenUI<UITroop>();
         UIManager.Instance.CloseUI<UIHome>(0f);
 
-        // YÊU CẦU 1: Chuyển camera sang view lính
+
         if (cameraSwitcher != null)
         {
             cameraSwitcher.MoveToSecondaryView();
@@ -58,7 +58,10 @@ public class UIHome : UICanvas
         {
             cameraSwitcher.MoveToMainView();
         }
+        Debug.Log("Thang Ga");
     }
+
+
 
     /// <summary>
     /// HÀM SỬA ĐỔI: Thêm logic chuyển camera
@@ -88,6 +91,6 @@ public class UIHome : UICanvas
 
     public void SettingBtn()
     {
-        // Add settings functionality here
+
     }
 }
