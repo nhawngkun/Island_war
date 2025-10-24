@@ -8,17 +8,17 @@ public class UIHome : UICanvas
     [SerializeField] private HomeTab[] homeTabs;
     [HideInInspector] public int currentTabIndex = 0;
 
-   
+
     [Header("Camera Control")]
     [Tooltip("Kéo object có script CameraViewSwitcher vào đây")]
     [SerializeField] private CameraViewSwitcher cameraSwitcher;
-    
+
 
 
     public void PlayBtn()
     {
-      
-       UIManager.Instance.CloseUI<UIHome>(0f);
+
+        UIManager.Instance.CloseUI<UIHome>(0f);
     }
 
     private void Start()
@@ -30,7 +30,7 @@ public class UIHome : UICanvas
     {
         UIManager.Instance.OpenUI<UIRecruit>();
         UIManager.Instance.CloseUI<UIHome>(0f);
-        
+
         // (Tùy chọn) Chuyển camera về view chính khi vào Recruit
         if (cameraSwitcher != null)
         {
