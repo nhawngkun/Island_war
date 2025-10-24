@@ -17,7 +17,8 @@ public class UIHome : UICanvas
 
     public void PlayBtn()
     {
-       UIManager.Instance.OpenUI<UIGameplay>();
+      
+       UIManager.Instance.CloseUI<UIHome>(0f);
     }
 
     private void Start()
