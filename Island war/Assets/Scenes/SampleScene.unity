@@ -11190,9 +11190,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 153758336}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 146, y: 355}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -26}
   m_SizeDelta: {x: 56, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &770981960
@@ -15683,6 +15683,7 @@ GameObject:
   - component: {fileID: 1105572286}
   - component: {fileID: 1105572289}
   - component: {fileID: 1105572290}
+  - component: {fileID: 1105572291}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -15768,6 +15769,19 @@ MonoBehaviour:
   buidingManager: {fileID: 1105572286}
   BuildingData: {fileID: 11400000, guid: a134526dac3e73d4385577502ea9b00f, type: 2}
   soldierData: {fileID: 11400000, guid: 13f1af8f9f3e60640b256ee9dc39fac1, type: 2}
+--- !u!114 &1105572291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105572285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a126e6f722da7bc43a50820e7709334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateInterval: 0.5
 --- !u!1 &1107065627
 GameObject:
   m_ObjectHideFlags: 0
