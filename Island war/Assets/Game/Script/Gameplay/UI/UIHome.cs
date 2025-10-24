@@ -19,6 +19,7 @@ public class UIHome : UICanvas
     {
 
         UIManager.Instance.CloseUI<UIHome>(0f);
+        Debug.Log("Play Button Clicked");
     }
 
     private void Start()
