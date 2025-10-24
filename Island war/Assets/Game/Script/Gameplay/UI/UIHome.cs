@@ -19,6 +19,8 @@ public class UIHome : UICanvas
     {
 
         UIManager.Instance.CloseUI<UIHome>(0f);
+
+        Debug.Log("adadkakldja");
     }
 
     private void Start()
@@ -80,7 +82,7 @@ public class UIHome : UICanvas
                 tab.AnimationOff();
             }
         }
-
+        Debug.Log("afksaljhfl");
         // --- THÊM MỚI ---
         // Khi quay về Home (Tab 0), chuyển camera về đảo chính
         if (index == 0 && cameraSwitcher != null)
