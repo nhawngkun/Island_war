@@ -19,8 +19,8 @@ public class UIHome : UICanvas
     {
 
         UIManager.Instance.CloseUI<UIHome>(0f);
-
         Debug.Log("adadkakldja");
+        Debug.Log("Play Button Clicked");
     }
 
     private void Start()
@@ -49,6 +49,7 @@ public class UIHome : UICanvas
         UIManager.Instance.CloseUI<UIHome>(0f);
 
 
+        // YÊU CẦU 1: Chuyển camera sang view lính
         if (cameraSwitcher != null)
         {
             cameraSwitcher.MoveToSecondaryView();
