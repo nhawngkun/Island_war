@@ -8,16 +8,17 @@ public class UIHome : UICanvas
     [SerializeField] private HomeTab[] homeTabs;
     [HideInInspector] public int currentTabIndex = 0;
 
-    // --- THÊM MỚI ---
+   
     [Header("Camera Control")]
     [Tooltip("Kéo object có script CameraViewSwitcher vào đây")]
     [SerializeField] private CameraViewSwitcher cameraSwitcher;
-    // --- KẾT THÚC THÊM MỚI ---
+    
 
 
     public void PlayBtn()
     {
-       
+      
+       UIManager.Instance.CloseUI<UIHome>(0f);
     }
 
     private void Start()
